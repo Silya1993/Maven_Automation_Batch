@@ -20,7 +20,7 @@ public class Undrestending_Web_Elements {
 		driver.findElement(By.className("signin")).click();
 		
 		driver.findElement(By.id("login1")).sendKeys("seleniumpanda@rediffmail.com");
-		driver.findElement(By.id("password")).sendKeys("selenium@123");
+		driver.findElement(By.id("password")).sendKeys("Selenium@123");
 		driver.findElement(By.className("signinbtn")).click();
 		driver.findElement(By.className("rd_logout")).click();
 		
