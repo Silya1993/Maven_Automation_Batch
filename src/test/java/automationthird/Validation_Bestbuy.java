@@ -21,7 +21,7 @@ public class Validation_Bestbuy {
 		
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
- String ActualCurrentUrl = "https://www.bestbuy.com";
+ String ActualCurrentUrl = "https://www.bestbuy.com/";
  String ExpectedCurrentUrl = (driver.getCurrentUrl());
  String ActualTitle ="Best Buy | Official Online Store | Shop Now & Save";
  String ExpectedTitle = (driver.getTitle());
