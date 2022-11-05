@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-04T21:49:57 EDT" name="Default suite" finished-at="2022-11-04T21:50:03 EDT" duration-ms="6548">
+    <groups>
+    </groups>
+    <test started-at="2022-11-04T21:49:57 EDT" name="Default test" finished-at="2022-11-04T21:50:03 EDT" duration-ms="6548">
+      <class name="testng_automation_practice.Test_PlayAround_HM">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testng_automation_practice.Test_PlayAround_HM@6bd61f98]" started-at="2022-11-04T21:49:57 EDT" name="launchBrowser" finished-at="2022-11-04T21:49:59 EDT" duration-ms="1988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="setUpExpress()[pri:1, instance:testng_automation_practice.Test_PlayAround_HM@6bd61f98]" started-at="2022-11-04T21:49:59 EDT" name="setUpExpress" finished-at="2022-11-04T21:50:01 EDT" duration-ms="1949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpExpress -->
+        <test-method signature="clickOnExpressLogo()[pri:2, instance:testng_automation_practice.Test_PlayAround_HM@6bd61f98]" started-at="2022-11-04T21:50:01 EDT" name="clickOnExpressLogo" finished-at="2022-11-04T21:50:02 EDT" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnExpressLogo -->
+        <test-method signature="clickOnDetails()[pri:3, instance:testng_automation_practice.Test_PlayAround_HM@6bd61f98]" started-at="2022-11-04T21:50:02 EDT" name="clickOnDetails" finished-at="2022-11-04T21:50:03 EDT" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnDetails -->
+        <test-method signature="clickOnCreateAccount()[pri:4, instance:testng_automation_practice.Test_PlayAround_HM@6bd61f98]" started-at="2022-11-04T21:50:03 EDT" name="clickOnCreateAccount" finished-at="2022-11-04T21:50:03 EDT" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCreateAccount -->
+        <test-method is-config="true" signature="treatDown()[pri:0, instance:testng_automation_practice.Test_PlayAround_HM@6bd61f98]" started-at="2022-11-04T21:50:03 EDT" name="treatDown" finished-at="2022-11-04T21:50:03 EDT" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- treatDown -->
+      </class> <!-- testng_automation_practice.Test_PlayAround_HM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

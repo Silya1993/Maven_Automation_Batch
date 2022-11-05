@@ -14,7 +14,7 @@ public class Validation_amazon {
 	public static void main(String[] args) {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.amazon.com");
 		System.out.println(driver.getCurrentUrl());
@@ -37,7 +37,8 @@ public class Validation_amazon {
 			System.out.println("My Title is not correct");
 		}
 		
-			
+		driver.quit();
+		
 	}
 
 }
