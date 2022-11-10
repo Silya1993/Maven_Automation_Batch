@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name=" Batch Test(failed)">
+    <classes>
+      <class name="testng_code_5nov.Assert_Method">
+        <methods>
+          <include name="launchRediff"/>
+        </methods>
+      </class> <!-- testng_code_5nov.Assert_Method -->
+      <class name="testng_code_5nov.Web_Driver_wait_Rediff">
+        <methods>
+          <include name="logOut"/>
+          <include name="loginCredentials"/>
+          <include name="tearDown"/>
+          <include name="rediffHome"/>
+          <include name="launchRediff"/>
+          <include name="clickOnSignInLink"/>
+        </methods>
+      </class> <!-- testng_code_5nov.Web_Driver_wait_Rediff -->
+      <class name="testng_code_5nov.Wait_condition">
+        <methods>
+          <include name="tearDown"/>
+          <include name="login"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- testng_code_5nov.Wait_condition -->
+      <class name="testng_code_5nov.SoftAssert_concept">
+        <methods>
+          <include name="logic1"/>
+        </methods>
+      </class> <!-- testng_code_5nov.SoftAssert_concept -->
+      <class name="testng_code_5nov.Parameterization">
+        <methods>
+          <include name="loginCredentials"/>
+          <include name="rediffHome"/>
+          <include name="clickOnSignInLink"/>
+          <include name="launchRediff"/>
+          <include name="logOut"/>
+        </methods>
+      </class> <!-- testng_code_5nov.Parameterization -->
+      <class name="testng_code_5nov.Assertion_in_TestNG">
+        <methods>
+          <include name="program1"/>
+        </methods>
+      </class> <!-- testng_code_5nov.Assertion_in_TestNG -->
+    </classes>
+  </test> <!--  Batch Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

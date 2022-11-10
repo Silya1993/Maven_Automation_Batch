@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng_automation_practice.Test_PlayAround_HM">
+      <class name="automationpractice_Csscelector.Automationpractice_Using_Csscelector">
         <methods>
-          <include name="clickOnDetails"/>
-          <include name="clickOnExpressLogo"/>
-          <include name="launchBrowser"/>
-          <include name="treatDown"/>
-          <include name="clickOnCreateAccount"/>
+          <include name="enterPassword"/>
+          <include name="launchAutomationPractice"/>
+          <include name="enterLastName"/>
+          <include name="enterDateOfBirth"/>
+          <include name="clickOnGender"/>
+          <include name="enterFirstname"/>
         </methods>
-      </class> <!-- testng_automation_practice.Test_PlayAround_HM -->
+      </class> <!-- automationpractice_Csscelector.Automationpractice_Using_Csscelector -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
